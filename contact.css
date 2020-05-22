@@ -1,0 +1,126 @@
+.nav-img{
+    width: 25%;
+    border-radius: 10%;
+    margin-left: 3%;
+}
+.navbar{
+    background-color: black;
+}
+
+body{
+    background: linear-gradient(to right top, #6bc8d1, #60c2e4, #71b9f1, #94adf3, #bc9de7, #bea1ee, #bfa4f4, #c0a8fb, #8dc2ff, #50daff, #2cedff, #5ffbf1);
+}
+
+#heading{
+    text-align: center;
+    line-height: 2;
+    padding: 3% 5%;
+   background-color: black;
+}
+
+#contact{
+    padding: 10% ;
+    color: rgb(45,230,221);
+    background-image: transparent; 
+}
+
+.col1{
+padding-top: 0.1%;
+background-color: transparent;
+}
+
+
+.name, .email, .phone, .subject{
+    padding: 1%;
+margin: 4% 2%;
+width: 70%;
+height: 10%;
+border: 2px solid black;
+border-style: none none solid none;
+outline: none;
+font-size: 1.6rem;
+font-weight: lighter;
+font-family: sans-serif;
+background-color: transparent; 
+color: black;
+}
+
+
+
+
+
+.col2{
+    padding-top: 3%;
+    background-color: transparent;
+}
+
+.text{
+    padding: 1%;
+    border: 4px solid black;
+    width: 100%;
+    resize: none;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  transparent;
+    color: white;
+}
+
+.button{
+    margin: 2% 0 0 83%;
+}
+
+h1{
+    color: yellow;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "montserrat",Georgia, Times, serif;
+}
+
+h3{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* placeholder */
+
+::placeholder{
+    color: white;
+    opacity: 2;
+}
+
+#media{
+    padding: 3% 4% ;
+    background-color: black;
+    text-align: center;
+}
+
+.icon{
+    margin:2% 4%;
+}
+.copy{
+    padding-top: 2%;
+    color: white;
+    font-weight: lighter;
+}
+
+
+@media (max-width:800px)
+{
+    h1{
+        color: yellow;
+        font-size: 2.8rem;
+        font-weight: bold;
+        font-family: "montserrat",Georgia, Times, serif;
+    }
+
+    h3{
+        color: white;
+        font-size: 1rem;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
